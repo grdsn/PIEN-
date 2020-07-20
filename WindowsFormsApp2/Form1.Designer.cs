@@ -308,9 +308,9 @@
             // 
             this.groupBox4.Controls.Add(this.Webタイトル追加textBox);
             this.groupBox4.Controls.Add(this.Webタイトル追加);
-            this.groupBox4.Location = new System.Drawing.Point(18, 191);
+            this.groupBox4.Location = new System.Drawing.Point(18, 153);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(336, 76);
+            this.groupBox4.Size = new System.Drawing.Size(336, 114);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Webタイトルを追加";
@@ -442,7 +442,6 @@
             this.ソースコードを表示.TabIndex = 6;
             this.ソースコードを表示.Text = "ソースコードを表示";
             this.ソースコードを表示.UseVisualStyleBackColor = true;
-            this.ソースコードを表示.Click += new System.EventHandler(this.ソースコードを表示_Click);
             // 
             // Form1
             // 
@@ -456,7 +455,6 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "HTML編集";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
