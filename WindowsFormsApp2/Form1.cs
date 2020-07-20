@@ -105,7 +105,7 @@ namespace WindowsFormsApp2
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 //OKボタンがクリックされたとき、選択されたファイル名を表示する
-                txb_file.Text = ofd.FileName;
+                //txb_file.Text = ofd.FileName;
             }
         }
 
